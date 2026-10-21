@@ -1,0 +1,37 @@
+{
+  "target_name": "TechCareers Portal",
+  "base_url": "https://example.com/jobs",
+  "fixture_mode": true,
+  "fixture_dir": "data/fixtures/html",
+  "request_settings": {
+    "user_agent": "DataFlowStudioBot/1.0 (+https://dataflow.studio/bot; contact@dataflow.studio)",
+    "timeout_seconds": 10,
+    "max_retries": 3,
+    "backoff_factor": 1.5,
+    "rate_limit_delay_seconds": 0.5
+  },
+  "pagination": {
+    "type": "page_param",
+    "param_name": "page",
+    "start_page": 1,
+    "max_pages": 5,
+    "max_records": 150
+  },
+  "selectors": {
+    "item_container": ".job-card",
+    "fields": {
+      "title": { "selector": ".job-title", "type": "text" },
+      "organization": { "selector": ".company-name", "type": "text" },
+      "location": { "selector": ".job-location", "type": "text" },
+      "salary": { "selector": ".job-salary", "type": "text" },
+      "category": { "selector": ".job-category", "type": "text" },
+      "posted_date": { "selector": ".posted-date", "type": "text" },
+      "detail_url": { "selector": "a.job-link", "type": "attribute", "attribute": "href" }
+    }
+  },
+  "output": {
+    "raw_csv_path": "data/raw/scraped_jobs.csv",
+    "raw_json_path": "data/raw/scraped_jobs.json",
+    "report_path": "reports/scraping_summary.json"
+  }
+}

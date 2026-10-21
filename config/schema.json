@@ -1,0 +1,87 @@
+{
+  "dataset_name": "job_postings",
+  "version": "1.0.0",
+  "business_key": "record_hash",
+  "natural_key_fields": ["title", "organization", "location"],
+  "columns": {
+    "record_hash": {
+      "type": "string",
+      "required": true,
+      "nullable": false,
+      "description": "Deterministic SHA-256 fingerprint computed from natural key fields"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "nullable": false,
+      "max_length": 255,
+      "description": "Normalized job title"
+    },
+    "organization": {
+      "type": "string",
+      "required": true,
+      "nullable": false,
+      "max_length": 255,
+      "description": "Hiring company or organization name"
+    },
+    "location": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "max_length": 255,
+      "default": "Remote",
+      "description": "Job work location or Remote"
+    },
+    "category": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "max_length": 100,
+      "default": "Engineering",
+      "description": "Job domain category"
+    },
+    "salary_min": {
+      "type": "float",
+      "required": false,
+      "nullable": true,
+      "min_value": 0.0,
+      "description": "Minimum normalized salary amount"
+    },
+    "salary_max": {
+      "type": "float",
+      "required": false,
+      "nullable": true,
+      "min_value": 0.0,
+      "description": "Maximum normalized salary amount"
+    },
+    "currency": {
+      "type": "string",
+      "required": false,
+      "nullable": true,
+      "max_length": 10,
+      "default": "USD",
+      "description": "Preserved ISO currency code or symbol"
+    },
+    "posted_date": {
+      "type": "date",
+      "required": false,
+      "nullable": true,
+      "format": "YYYY-MM-DD",
+      "description": "Normalized ISO-8601 posting date"
+    },
+    "source_url": {
+      "type": "string",
+      "required": true,
+      "nullable": false,
+      "max_length": 1024,
+      "description": "Original source URL or canonical path"
+    },
+    "extracted_at": {
+      "type": "datetime",
+      "required": true,
+      "nullable": false,
+      "format": "YYYY-MM-DD HH:MM:SS",
+      "description": "Extraction timestamp"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "pipeline_name": "DataFlow E2E Studio Pipeline",
+  "version": "1.0.0",
+  "execution": {
+    "concurrency_lock_file": ".pipeline.lock",
+    "batch_size": 50,
+    "dry_run": false,
+    "stop_on_stage_failure": true
+  },
+  "stages": [
+    { "name": "extract", "enabled": true, "timeout_seconds": 60 },
+    { "name": "clean", "enabled": true, "timeout_seconds": 30 },
+    { "name": "load", "enabled": true, "timeout_seconds": 60 },
+    { "name": "verify", "enabled": true, "timeout_seconds": 30 },
+    { "name": "report", "enabled": true, "timeout_seconds": 15 },
+    { "name": "notify", "enabled": true, "timeout_seconds": 15 }
+  ],
+  "scheduler": {
+    "enabled": false,
+    "interval_minutes": 60,
+    "cron_expression": "0 * * * *",
+    "timezone": "UTC"
+  },
+  "paths": {
+    "raw_csv": "data/raw/scraped_jobs.csv",
+    "raw_json": "data/raw/scraped_jobs.json",
+    "processed_csv": "data/processed/cleaned_jobs.csv",
+    "processed_json": "data/processed/cleaned_jobs.json",
+    "database_file": "database/dataflow.db",
+    "log_file": "logs/pipeline.log",
+    "run_history_file": "reports/run_history.json",
+    "quality_report_file": "reports/data_quality_report.json",
+    "pipeline_report_file": "reports/pipeline_summary.json"
+  }
+}
