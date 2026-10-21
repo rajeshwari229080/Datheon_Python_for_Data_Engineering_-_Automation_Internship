@@ -1,0 +1,19 @@
+# Core Data Engineering & Automation Dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+soupsieve>=2.5
+pandas>=2.0.0
+sqlalchemy>=2.0.0
+schedule>=1.2.0
+
+# Optional Database Connectors
+psycopg2-binary>=2.9.9; sys_platform != "win32"
+
+# Interactive Web Application & Visualization
+streamlit>=1.30.0
+
+# Testing & Quality Assurance
+pytest>=8.0.0
+
+# Environment Configuration
+python-dotenv>=1.0.0
