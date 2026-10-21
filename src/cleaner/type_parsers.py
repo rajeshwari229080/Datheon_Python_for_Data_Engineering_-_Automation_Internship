@@ -48,7 +48,7 @@ class StringSanitizer:
         if text_columns:
             target_cols = [c for c in text_columns if c in cleaned_df.columns]
         else:
-            target_cols = list(cleaned_df.select_dtypes(include=["object"]).columns)
+            target_cols = list(cleaned_df.select_dtypes(include=["object", "string"]).columns)
 
         title_case_cols = set(title_case_columns or ["title", "organization", "location", "category"])
 
