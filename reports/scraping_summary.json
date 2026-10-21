@@ -2,9 +2,9 @@
   "target_name": "TechCareers Portal",
   "source_url": "https://example.com/jobs",
   "is_fixture": true,
-  "started_at": "2026-10-21 11:14:10",
-  "ended_at": "2026-10-21 11:14:10",
-  "duration_seconds": 0.204,
+  "started_at": "2026-10-21 11:43:05",
+  "ended_at": "2026-10-21 11:43:05",
+  "duration_seconds": 0.183,
   "pages_attempted": 5,
   "pages_successful": 5,
   "pages_failed": 0,
@@ -12,8 +12,8 @@
   "duplicates_removed": 0,
   "errors": [],
   "output_files": {
-    "csv": "C:\\Users\\vijay\\AppData\\Local\\Temp\\pytest-of-vijay\\pytest-25\\test_full_offline_scraper_exec0\\test_jobs.csv",
-    "json": "C:\\Users\\vijay\\AppData\\Local\\Temp\\pytest-of-vijay\\pytest-25\\test_full_offline_scraper_exec0\\test_jobs.json",
+    "csv": "C:\\Users\\vijay\\AppData\\Local\\Temp\\pytest-of-vijay\\pytest-39\\test_full_offline_scraper_exec0\\test_jobs.csv",
+    "json": "C:\\Users\\vijay\\AppData\\Local\\Temp\\pytest-of-vijay\\pytest-39\\test_full_offline_scraper_exec0\\test_jobs.json",
     "report": "D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\reports/scraping_summary.json"
   }
 }

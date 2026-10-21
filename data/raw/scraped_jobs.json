@@ -1,7 +1,7 @@
 [
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Senior Data Engineer",
     "organization": "Apex Data Labs",
     "location": "New York, NY",
@@ -13,7 +13,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Platform Architect",
     "organization": "CyberPulse Corp",
     "location": "Austin, TX",
@@ -25,7 +25,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Lead Python Developer",
     "organization": "Vanguard Dataworks",
     "location": "Chicago, IL",
@@ -37,7 +37,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "ETL Pipeline Specialist",
     "organization": "Hyperion Dynamics",
     "location": "Denver, CO",
@@ -49,7 +49,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Backend Software Engineer",
     "organization": "Krypton Labs",
     "location": "London, UK",
@@ -61,7 +61,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Machine Learning Engineer",
     "organization": "Apex Data Labs",
     "location": "Bangalore, India",
@@ -73,7 +73,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Analytics Engineer",
     "organization": "CyberPulse Corp",
     "location": "New York, NY",
@@ -85,7 +85,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Big Data Developer",
     "organization": "Vanguard Dataworks",
     "location": "Austin, TX",
@@ -97,7 +97,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Cloud Infrastructure Engineer",
     "organization": "Hyperion Dynamics",
     "location": "Chicago, IL",
@@ -109,7 +109,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "DevOps & Automation Engineer",
     "organization": "Krypton Labs",
     "location": "Denver, CO",
@@ -121,7 +121,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Full Stack Python Developer",
     "organization": "Apex Data Labs",
     "location": "London, UK",
@@ -133,7 +133,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Database Administrator",
     "organization": "CyberPulse Corp",
     "location": "Bangalore, India",
@@ -145,7 +145,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "BI Developer",
     "organization": "Vanguard Dataworks",
     "location": "New York, NY",
@@ -157,7 +157,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Systems Architect",
     "organization": "Hyperion Dynamics",
     "location": "Austin, TX",
@@ -169,7 +169,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Site Reliability Engineer",
     "organization": "Krypton Labs",
     "location": "Chicago, IL",
@@ -181,7 +181,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "AI Solutions Engineer",
     "organization": "Apex Data Labs",
     "location": "Denver, CO",
@@ -193,7 +193,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Warehouse Engineer",
     "organization": "CyberPulse Corp",
     "location": "London, UK",
@@ -205,7 +205,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "MLOps Specialist",
     "organization": "Vanguard Dataworks",
     "location": "Bangalore, India",
@@ -217,7 +217,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Quality Analyst",
     "organization": "Hyperion Dynamics",
     "location": "New York, NY",
@@ -229,7 +229,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Stream Processing Engineer",
     "organization": "Krypton Labs",
     "location": "Austin, TX",
@@ -241,7 +241,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Software Architect",
     "organization": "Apex Data Labs",
     "location": "Chicago, IL",
@@ -253,7 +253,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Principal Data Engineer",
     "organization": "CyberPulse Corp",
     "location": "Denver, CO",
@@ -265,7 +265,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "API Integrations Engineer",
     "organization": "Vanguard Dataworks",
     "location": "London, UK",
@@ -277,7 +277,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Platform Reliability Engineer",
     "organization": "Hyperion Dynamics",
     "location": "Bangalore, India",
@@ -289,7 +289,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_1.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Governance Specialist",
     "organization": "Krypton Labs",
     "location": "New York, NY",
@@ -301,7 +301,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Machine Learning Engineer",
     "organization": "CloudScale Technologies",
     "location": "San Francisco, CA",
@@ -313,7 +313,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Analytics Engineer",
     "organization": "Quantum Stream Inc",
     "location": "Seattle, WA",
@@ -325,7 +325,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Big Data Developer",
     "organization": "Synthetix AI",
     "location": "Boston, MA",
@@ -337,7 +337,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Cloud Infrastructure Engineer",
     "organization": "InfraCore Solutions",
     "location": "Atlanta, GA",
@@ -349,7 +349,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "DevOps & Automation Engineer",
     "organization": "Pinnacle Systems",
     "location": "Toronto, Canada",
@@ -361,7 +361,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Full Stack Python Developer",
     "organization": "CloudScale Technologies",
     "location": "Remote",
@@ -373,7 +373,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Database Administrator",
     "organization": "Quantum Stream Inc",
     "location": "San Francisco, CA",
@@ -385,7 +385,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "BI Developer",
     "organization": "Synthetix AI",
     "location": "Seattle, WA",
@@ -397,7 +397,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Systems Architect",
     "organization": "InfraCore Solutions",
     "location": "Boston, MA",
@@ -409,7 +409,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Site Reliability Engineer",
     "organization": "Pinnacle Systems",
     "location": "Atlanta, GA",
@@ -421,7 +421,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "AI Solutions Engineer",
     "organization": "CloudScale Technologies",
     "location": "Toronto, Canada",
@@ -433,7 +433,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Warehouse Engineer",
     "organization": "Quantum Stream Inc",
     "location": "Remote",
@@ -445,7 +445,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "MLOps Specialist",
     "organization": "Synthetix AI",
     "location": "San Francisco, CA",
@@ -457,7 +457,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Quality Analyst",
     "organization": "InfraCore Solutions",
     "location": "Seattle, WA",
@@ -469,7 +469,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Stream Processing Engineer",
     "organization": "Pinnacle Systems",
     "location": "Boston, MA",
@@ -481,7 +481,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Software Architect",
     "organization": "CloudScale Technologies",
     "location": "Atlanta, GA",
@@ -493,7 +493,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Principal Data Engineer",
     "organization": "Quantum Stream Inc",
     "location": "Toronto, Canada",
@@ -505,7 +505,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "API Integrations Engineer",
     "organization": "Synthetix AI",
     "location": "Remote",
@@ -517,7 +517,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Platform Reliability Engineer",
     "organization": "InfraCore Solutions",
     "location": "San Francisco, CA",
@@ -529,7 +529,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Governance Specialist",
     "organization": "Pinnacle Systems",
     "location": "Seattle, WA",
@@ -541,7 +541,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Senior Data Engineer",
     "organization": "CloudScale Technologies",
     "location": "Boston, MA",
@@ -553,7 +553,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Platform Architect",
     "organization": "Quantum Stream Inc",
     "location": "Atlanta, GA",
@@ -565,7 +565,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Lead Python Developer",
     "organization": "Synthetix AI",
     "location": "Toronto, Canada",
@@ -577,7 +577,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "ETL Pipeline Specialist",
     "organization": "InfraCore Solutions",
     "location": "Remote",
@@ -589,7 +589,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_2.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Backend Software Engineer",
     "organization": "Pinnacle Systems",
     "location": "San Francisco, CA",
@@ -601,7 +601,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Full Stack Python Developer",
     "organization": "Nexus Analytics",
     "location": "Austin, TX",
@@ -613,7 +613,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Database Administrator",
     "organization": "Acuity Logic",
     "location": "Chicago, IL",
@@ -625,7 +625,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "BI Developer",
     "organization": "Velocity Cloud",
     "location": "Denver, CO",
@@ -637,7 +637,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Systems Architect",
     "organization": "Zenith Technologies",
     "location": "London, UK",
@@ -649,7 +649,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Site Reliability Engineer",
     "organization": "Datheon Systems",
     "location": "Bangalore, India",
@@ -661,7 +661,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "AI Solutions Engineer",
     "organization": "Nexus Analytics",
     "location": "New York, NY",
@@ -673,7 +673,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Warehouse Engineer",
     "organization": "Acuity Logic",
     "location": "Austin, TX",
@@ -685,7 +685,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "MLOps Specialist",
     "organization": "Velocity Cloud",
     "location": "Chicago, IL",
@@ -697,7 +697,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Quality Analyst",
     "organization": "Zenith Technologies",
     "location": "Denver, CO",
@@ -709,7 +709,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Stream Processing Engineer",
     "organization": "Datheon Systems",
     "location": "London, UK",
@@ -721,7 +721,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Software Architect",
     "organization": "Nexus Analytics",
     "location": "Bangalore, India",
@@ -733,7 +733,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Principal Data Engineer",
     "organization": "Acuity Logic",
     "location": "New York, NY",
@@ -745,7 +745,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "API Integrations Engineer",
     "organization": "Velocity Cloud",
     "location": "Austin, TX",
@@ -757,7 +757,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Platform Reliability Engineer",
     "organization": "Zenith Technologies",
     "location": "Chicago, IL",
@@ -769,7 +769,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Governance Specialist",
     "organization": "Datheon Systems",
     "location": "Denver, CO",
@@ -781,7 +781,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Senior Data Engineer",
     "organization": "Nexus Analytics",
     "location": "London, UK",
@@ -793,7 +793,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Platform Architect",
     "organization": "Acuity Logic",
     "location": "Bangalore, India",
@@ -805,7 +805,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Lead Python Developer",
     "organization": "Velocity Cloud",
     "location": "New York, NY",
@@ -817,7 +817,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "ETL Pipeline Specialist",
     "organization": "Zenith Technologies",
     "location": "Austin, TX",
@@ -829,7 +829,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Backend Software Engineer",
     "organization": "Datheon Systems",
     "location": "Chicago, IL",
@@ -841,7 +841,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Machine Learning Engineer",
     "organization": "Nexus Analytics",
     "location": "Denver, CO",
@@ -853,7 +853,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Analytics Engineer",
     "organization": "Acuity Logic",
     "location": "London, UK",
@@ -865,7 +865,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Big Data Developer",
     "organization": "Velocity Cloud",
     "location": "Bangalore, India",
@@ -877,7 +877,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Cloud Infrastructure Engineer",
     "organization": "Zenith Technologies",
     "location": "New York, NY",
@@ -889,7 +889,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_3.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "DevOps & Automation Engineer",
     "organization": "Datheon Systems",
     "location": "Austin, TX",
@@ -901,7 +901,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "AI Solutions Engineer",
     "organization": "CyberPulse Corp",
     "location": "Seattle, WA",
@@ -913,7 +913,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Warehouse Engineer",
     "organization": "Vanguard Dataworks",
     "location": "Boston, MA",
@@ -925,7 +925,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "MLOps Specialist",
     "organization": "Hyperion Dynamics",
     "location": "Atlanta, GA",
@@ -937,7 +937,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Quality Analyst",
     "organization": "Krypton Labs",
     "location": "Toronto, Canada",
@@ -949,7 +949,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Stream Processing Engineer",
     "organization": "Apex Data Labs",
     "location": "Remote",
@@ -961,7 +961,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Software Architect",
     "organization": "CyberPulse Corp",
     "location": "San Francisco, CA",
@@ -973,7 +973,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Principal Data Engineer",
     "organization": "Vanguard Dataworks",
     "location": "Seattle, WA",
@@ -985,7 +985,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "API Integrations Engineer",
     "organization": "Hyperion Dynamics",
     "location": "Boston, MA",
@@ -997,7 +997,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Platform Reliability Engineer",
     "organization": "Krypton Labs",
     "location": "Atlanta, GA",
@@ -1009,7 +1009,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Governance Specialist",
     "organization": "Apex Data Labs",
     "location": "Toronto, Canada",
@@ -1021,7 +1021,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Senior Data Engineer",
     "organization": "CyberPulse Corp",
     "location": "Remote",
@@ -1033,7 +1033,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Platform Architect",
     "organization": "Vanguard Dataworks",
     "location": "San Francisco, CA",
@@ -1045,7 +1045,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Lead Python Developer",
     "organization": "Hyperion Dynamics",
     "location": "Seattle, WA",
@@ -1057,7 +1057,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "ETL Pipeline Specialist",
     "organization": "Krypton Labs",
     "location": "Boston, MA",
@@ -1069,7 +1069,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Backend Software Engineer",
     "organization": "Apex Data Labs",
     "location": "Atlanta, GA",
@@ -1081,7 +1081,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Machine Learning Engineer",
     "organization": "CyberPulse Corp",
     "location": "Toronto, Canada",
@@ -1093,7 +1093,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Analytics Engineer",
     "organization": "Vanguard Dataworks",
     "location": "Remote",
@@ -1105,7 +1105,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Big Data Developer",
     "organization": "Hyperion Dynamics",
     "location": "San Francisco, CA",
@@ -1117,7 +1117,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Cloud Infrastructure Engineer",
     "organization": "Krypton Labs",
     "location": "Seattle, WA",
@@ -1129,7 +1129,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "DevOps & Automation Engineer",
     "organization": "Apex Data Labs",
     "location": "Boston, MA",
@@ -1141,7 +1141,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Full Stack Python Developer",
     "organization": "CyberPulse Corp",
     "location": "Atlanta, GA",
@@ -1153,7 +1153,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Database Administrator",
     "organization": "Vanguard Dataworks",
     "location": "Toronto, Canada",
@@ -1165,7 +1165,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "BI Developer",
     "organization": "Hyperion Dynamics",
     "location": "Remote",
@@ -1177,7 +1177,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Systems Architect",
     "organization": "Krypton Labs",
     "location": "San Francisco, CA",
@@ -1189,7 +1189,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_4.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Site Reliability Engineer",
     "organization": "Apex Data Labs",
     "location": "Seattle, WA",
@@ -1201,7 +1201,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Software Architect",
     "organization": "Quantum Stream Inc",
     "location": "Chicago, IL",
@@ -1213,7 +1213,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Principal Data Engineer",
     "organization": "Synthetix AI",
     "location": "Denver, CO",
@@ -1225,7 +1225,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "API Integrations Engineer",
     "organization": "InfraCore Solutions",
     "location": "London, UK",
@@ -1237,7 +1237,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Platform Reliability Engineer",
     "organization": "Pinnacle Systems",
     "location": "Bangalore, India",
@@ -1249,7 +1249,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Governance Specialist",
     "organization": "CloudScale Technologies",
     "location": "New York, NY",
@@ -1261,7 +1261,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Senior Data Engineer",
     "organization": "Quantum Stream Inc",
     "location": "Austin, TX",
@@ -1273,7 +1273,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Platform Architect",
     "organization": "Synthetix AI",
     "location": "Chicago, IL",
@@ -1285,7 +1285,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Lead Python Developer",
     "organization": "InfraCore Solutions",
     "location": "Denver, CO",
@@ -1297,7 +1297,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "ETL Pipeline Specialist",
     "organization": "Pinnacle Systems",
     "location": "London, UK",
@@ -1309,7 +1309,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Backend Software Engineer",
     "organization": "CloudScale Technologies",
     "location": "Bangalore, India",
@@ -1321,7 +1321,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Machine Learning Engineer",
     "organization": "Quantum Stream Inc",
     "location": "New York, NY",
@@ -1333,7 +1333,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Analytics Engineer",
     "organization": "Synthetix AI",
     "location": "Austin, TX",
@@ -1345,7 +1345,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Big Data Developer",
     "organization": "InfraCore Solutions",
     "location": "Chicago, IL",
@@ -1357,7 +1357,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Cloud Infrastructure Engineer",
     "organization": "Pinnacle Systems",
     "location": "Denver, CO",
@@ -1369,7 +1369,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "DevOps & Automation Engineer",
     "organization": "CloudScale Technologies",
     "location": "London, UK",
@@ -1381,7 +1381,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Full Stack Python Developer",
     "organization": "Quantum Stream Inc",
     "location": "Bangalore, India",
@@ -1393,7 +1393,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Database Administrator",
     "organization": "Synthetix AI",
     "location": "New York, NY",
@@ -1405,7 +1405,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "BI Developer",
     "organization": "InfraCore Solutions",
     "location": "Austin, TX",
@@ -1417,7 +1417,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Systems Architect",
     "organization": "Pinnacle Systems",
     "location": "Chicago, IL",
@@ -1429,7 +1429,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Site Reliability Engineer",
     "organization": "CloudScale Technologies",
     "location": "Denver, CO",
@@ -1441,7 +1441,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "AI Solutions Engineer",
     "organization": "Quantum Stream Inc",
     "location": "London, UK",
@@ -1453,7 +1453,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Warehouse Engineer",
     "organization": "Synthetix AI",
     "location": "Bangalore, India",
@@ -1465,7 +1465,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "MLOps Specialist",
     "organization": "InfraCore Solutions",
     "location": "New York, NY",
@@ -1477,7 +1477,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Data Quality Analyst",
     "organization": "Pinnacle Systems",
     "location": "Austin, TX",
@@ -1489,7 +1489,7 @@
   },
   {
     "source_url": "file:///D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/fixtures/html\\jobs_page_5.html",
-    "extracted_at": "2026-10-21 11:14:09",
+    "extracted_at": "2026-10-21 11:43:04",
     "title": "Stream Processing Engineer",
     "organization": "CloudScale Technologies",
     "location": "Chicago, IL",

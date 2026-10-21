@@ -10,7 +10,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"0c91717d0eff8301bb8f94e1587468b75c8c9f80bad4ffbe8b152b68e6fe2891",
@@ -23,7 +23,7 @@
     "currency":"USD",
     "posted_date":"2026-10-19",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"79d543307ab5050096c1d75281f6ecb8f18b924d3ad79760cb92b4a45f4fadde",
@@ -36,7 +36,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"1762cd86a888ac3290777064ec04ad967e72b581bd890a604d2eefb992f7a2f8",
@@ -49,7 +49,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"e57c5b224ce5023718dae43bcadd3df7a3635158d664c13138a42adeed7981ab",
@@ -62,7 +62,7 @@
     "currency":"GBP",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"0cbe1e48a6e8b385275c0f7828bf3afeb5a5f704c881ad86deeb82b6d58a6fe0",
@@ -75,7 +75,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"a6f26218a0746064a476ef023a6b2038771ba7b253540b134bf8f71ebf6eb965",
@@ -88,7 +88,7 @@
     "currency":"INR",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"ff14a36e670fc38e129980fd7177298a8bb061caaaef4466f78c04e25f095ae7",
@@ -101,7 +101,7 @@
     "currency":"USD",
     "posted_date":"2026-10-15",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"ba7762181a57e42de3f6feb365a7eec3a9ef17c5a6e3152dc2aa305dc6407e0c",
@@ -114,7 +114,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"e955a557e4bde7246f9ef2f19267f783297d2ce9cea897fec76e48840beef8b7",
@@ -127,7 +127,7 @@
     "currency":"USD",
     "posted_date":"2026-10-19",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"5f4beadd4197aa4bacfed2537b62474d177af2eb8c420d8bfff301063ead2ab8",
@@ -140,7 +140,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"af610a1f2480d844e4bdd36bc439619924451653235ba1cad6cc1f4a4428def6",
@@ -153,7 +153,7 @@
     "currency":"EUR",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"8b2fcf7a5631063d4859dd4e1ef7d8b6db7a5d93d00bae5131c90adf0e4e5c49",
@@ -166,7 +166,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"8f373748d2f7470bc0244b88c8c923c55bd13b1d31494ae2ece8cbbc5a6aeee9",
@@ -179,7 +179,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"b8454582d71b3d3c43aa3d20abacafdd1dc1356cda286fefe875240e8b37761d",
@@ -192,7 +192,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"6d72ae5e32d0389c432e363e4c23268409d16c18fcd2b47229eb90aac447c60f",
@@ -205,7 +205,7 @@
     "currency":"USD",
     "posted_date":"2026-10-15",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"d96748e7a98bd2f71f7cef274b26dc4a8c7e38167ef31f031e02d81e513ba440",
@@ -218,7 +218,7 @@
     "currency":"GBP",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"f34f39527d238123cc1e586772439e12552a05cec2a95fbf4a0a7b7dd416eb52",
@@ -231,7 +231,7 @@
     "currency":"USD",
     "posted_date":"2026-10-19",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"c5ab0663c416879d058135d991d7069c3e00d30ea383685efbdc0532cb08f00d",
@@ -244,7 +244,7 @@
     "currency":"INR",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"9118135bc35581719a28a984b95ece163139a5972cf0287500ad3f26c3086037",
@@ -257,7 +257,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"e732390fd2097200108049b08fa4dbef27b61d74fa5112a5ed9bd57e95442fd8",
@@ -270,7 +270,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"a85199156581df5caf748ca0526a8839f96c432e2b1f13065547e453c9994cde",
@@ -283,7 +283,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"11e228424c8c13a4060dfcd669bf9b2679c11684f608481cac6cc91702a236f0",
@@ -296,7 +296,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"6672c1f8a5d2ada80e5aaab45405de33408713b598efb9c88db79ee9142b6fc3",
@@ -309,7 +309,7 @@
     "currency":"EUR",
     "posted_date":"2026-10-15",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"9ffbfed057eda6ea34ea92adeaf0a4b84f58897802c412d685eccc1bb20bb578",
@@ -322,7 +322,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_1.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"f7594c4ccd7b03138e5ae4a5bf745e462991a69a580f2c169bf37e6664980e2e",
@@ -335,7 +335,7 @@
     "currency":"USD",
     "posted_date":"2026-10-19",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"db0669854987d7bde5b2137831e617b814c9ba043faf6f23c42367d42a4d4475",
@@ -348,7 +348,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"dd6065d13857831b98adecfaf7f0c102440833e47d0c0962846764fb129a8db4",
@@ -361,7 +361,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"c9e05b572de4621d7b4119325488e130274b5c89d7b99d29ac1cc3c7967ffd90",
@@ -374,7 +374,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"3c0ff8dcf632dbd457624a1d3bb5ad2df5e7339568914b209a09990186911931",
@@ -387,7 +387,7 @@
     "currency":"EUR",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"3f9bb99bc45b8ea9e24add5f38958562f24ee65f09cb0eeb152ab64a30d06fde",
@@ -400,7 +400,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"f9d42aa1456dadda33753a2ca3ca99d5e4f0445227d74a34aafa73177b4b2daf",
@@ -413,7 +413,7 @@
     "currency":"USD",
     "posted_date":"2026-10-15",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"49565f046d3c2ecccdfbaaeaacc97ef28e721cd1e1ab70c4a6d4c73308f15952",
@@ -426,7 +426,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"93d3ce6572f7f36ee1a3336760effd9f94246193682a4dea46d689e82c1675c8",
@@ -439,7 +439,7 @@
     "currency":"USD",
     "posted_date":"2026-10-19",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"8cfd750ab251b625efb9e4bac5c9f064df890f5cb8a2c1e3099dbd7cad72916a",
@@ -452,7 +452,7 @@
     "currency":"GBP",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"4785066506249b1e642c5d7102c3f80312dd0db81cdda78eff99f45c2bf0f6d0",
@@ -465,7 +465,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"3897a7f26f823aad882d7f63a00b7e9ece0e646b72ea812fff2845c226c5ad2b",
@@ -478,7 +478,7 @@
     "currency":"INR",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"dfcb626944ebd6d7f3deb56beeda10b76a5d2ba57876f1dd151e9dcd424cc12b",
@@ -491,7 +491,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"f0d24c18ae3a12b29f773b7bd0e1b9989bccf2fb2a619ebd7aabe5df46368b1f",
@@ -504,7 +504,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"e962a42e91ebdc62f7c3a993cb9c38295d6cc8fceb568db643d1dbadcd4c8b4d",
@@ -517,7 +517,7 @@
     "currency":"USD",
     "posted_date":"2026-10-15",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"965fc03cdd27f083119fd161d693221f8c6c95eddbf5cf7ad2179a02e1932ffb",
@@ -530,7 +530,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"cc44066bd50fda46df502225fa05cb7b606dc583042377b957318e365370e017",
@@ -543,7 +543,7 @@
     "currency":"EUR",
     "posted_date":"2026-10-19",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"bc98c22c60f4ecec347d832dc94ab040c40d456800b814f3547c600eb1e071be",
@@ -556,7 +556,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"6611b036ccbc8204526a7d00e25faa3874b5159a3dee78f81f31a7728e7b1bea",
@@ -569,7 +569,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"3de754552bbb46a36b67f348fdfdc9a024d29382a77612b324116354a16c84cc",
@@ -582,7 +582,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"d379f52df310a27480e9c51cf9353c5d89fad42e5cf288c7388a3de85479478b",
@@ -595,7 +595,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"5d55758bceab00ed061bdd74997b57b7f22726209fce21620977632930997214",
@@ -608,7 +608,7 @@
     "currency":"GBP",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"9ab4f6459f0b586ecfda8ce983c2a380f2b565bddcce2d90c69e0928c3a3068e",
@@ -621,7 +621,7 @@
     "currency":"USD",
     "posted_date":"2026-10-15",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"b4862e834e17a1201db6ee69fabca29d99e8ae7a5d013ce39bc9d56fbe972e2d",
@@ -634,7 +634,7 @@
     "currency":"INR",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"dac3af9e3869e2b8e6885392dc3f88fc4cbd26242926b831ea0c06d07b5f696d",
@@ -647,7 +647,7 @@
     "currency":"USD",
     "posted_date":"2026-10-19",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_2.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"78331736aea4e27b95518a19a61fa2e74241271f567be347f2efeed44f18d534",
@@ -660,7 +660,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"5664c26ba505f04ff3d8781380adb8b96b7bb31def21f3f976f00f48e376b4bd",
@@ -673,7 +673,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"e4178bca9a2b6f9c2789d2f71f991c569be0dae3e453e7b1c1a91de88f2c1b56",
@@ -686,7 +686,7 @@
     "currency":"GBP",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"856962efbdd85cf90bd7a2011e3e3ecc3bab84c611dd93e0794a848945f1681a",
@@ -699,7 +699,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"6a48d10ab8aad2ecaa32e0a3dff615185f3cab3af7c0048a450661471964b288",
@@ -712,7 +712,7 @@
     "currency":"INR",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"3af996c98b3ad179d48ef5f6ba21927ed05fb92fbd1232afcc565089818e8113",
@@ -725,7 +725,7 @@
     "currency":"USD",
     "posted_date":"2026-10-15",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"5a440e647bf0a9fec7385be8fd4bf8447cf23a3853bb5c411ae35768e7bfa090",
@@ -738,7 +738,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"e6e9b594a6f8e16c765ed436763afb9fe2e4572c632a501f19dd2dc61e6eac07",
@@ -751,7 +751,7 @@
     "currency":"USD",
     "posted_date":"2026-10-19",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"737ab3e7daf73c3e78dd71f3e14ab3ecbd6043111cedb44af00a8d21ff600ae3",
@@ -764,7 +764,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"19d95ac19d596235e6eafe5bda6392c0057d086e3d958ac2cbf06213abd089ca",
@@ -777,7 +777,7 @@
     "currency":"EUR",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"41f43bb1a0d5e4d7231b1f6b0cf6da3d11ed9efa21d1baf401ff558a26188bc4",
@@ -790,7 +790,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"643047366fbc1fd15e617d4720e374e8511372c55002eb2a028a78fb48dafe3d",
@@ -803,7 +803,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"8c559270cd91e02d1cee673abf978d19ef86fd2a689ce9acd693476f1326f3bb",
@@ -816,7 +816,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"56704044cc9527cd3701bccb96b7767e19c0061d929b726f460db74b4e3f9154",
@@ -829,7 +829,7 @@
     "currency":"USD",
     "posted_date":"2026-10-15",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"e4e6f1d6697c01bc77026a8ffda239413f62d449eb71c4734248fd694eca95ab",
@@ -842,7 +842,7 @@
     "currency":"GBP",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"cb82013a938120f6f1ce78819d247b33647f156913e5cd7d91d62c61edb756de",
@@ -855,7 +855,7 @@
     "currency":"USD",
     "posted_date":"2026-10-19",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"0f8826a90274fb0deb3b6524e597fe9a9a59160785c7fd593785c74ff0a83553",
@@ -868,7 +868,7 @@
     "currency":"INR",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"6098aca1a55d65d0078326ad49bcfb87b758242bc07ff79604dc27171fb0446f",
@@ -881,7 +881,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"c273473c90d28eb63ce0dfe6dd5a40ee553210a9780c52ae487ff11e769be1ba",
@@ -894,7 +894,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"2467f068ec8c2927ec889359820e5aa6c6584900dd2389c60c9e63265077587e",
@@ -907,7 +907,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"6fced67489d470edf5145963ff7909b8f9cde6a0df19a0827d47ceb0c165f59f",
@@ -920,7 +920,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"2788c10e3631a48418bc525c2fe119290870a40cdcb324f413cf0e5d9783e3a6",
@@ -933,7 +933,7 @@
     "currency":"EUR",
     "posted_date":"2026-10-15",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"a73a2b569eb6faf6c25ec9cdb7681c7109d287278d007ba656990605562964cc",
@@ -946,7 +946,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"a176edb99466bab661a9b0737c4f10024e7f0521c9a626d79cff7a92675403c3",
@@ -959,7 +959,7 @@
     "currency":"USD",
     "posted_date":"2026-10-19",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"283b13faebdac6aab881666630ad75edb08733f2a2004d8f5d155ef645e9d8bb",
@@ -972,7 +972,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_3.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"d0a3f96eae44c8a46526e0658b17e3422c1c12e738bf0c19224d54895aa4684e",
@@ -985,7 +985,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"b32a6204670a0f4ed4ea9ae22b9baefbc9c35a32d9208e7879144e28bf535f6f",
@@ -998,7 +998,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"38fe73c03a83cc7a161d33925d79fc3419922a2f99f4875d89e7a4306c6272bb",
@@ -1011,7 +1011,7 @@
     "currency":"EUR",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"650be91f0e4f484724dcdebf11253efc463e5ac9cb7f1ffac7460dd9ce8cd310",
@@ -1024,7 +1024,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"fbf95609f7561578e273bfda7883b5c6055aba7fc6ed14af01e8b91d3dfeb576",
@@ -1037,7 +1037,7 @@
     "currency":"USD",
     "posted_date":"2026-10-15",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"deacc0de0e98a123f0848b360aad8c16a1b5418d8a26b96332f5590f08528625",
@@ -1050,7 +1050,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"779221d14cbc141e6a49477f5c03fe86f0ffc7a9bf4618580b5314c0de4140ae",
@@ -1063,7 +1063,7 @@
     "currency":"USD",
     "posted_date":"2026-10-19",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"7da2484a1a1710d3bcb1ddb131cf6f409ba64c6737d82ee78d1bc01899364694",
@@ -1076,7 +1076,7 @@
     "currency":"GBP",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"4d07f7c5acffa2bf91ff94c16c7c0c7c78d32cb4a2bdbf183e8bedff09fb2adb",
@@ -1089,7 +1089,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"13602c586c55684627556ff62207c0ae250e525afe8109f447c5b0ffa51a1dba",
@@ -1102,7 +1102,7 @@
     "currency":"INR",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"14bce7f9080391a2f3225aea5b7c48190e74bdcdc224add7f664cc0a916d456f",
@@ -1115,7 +1115,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"4208fb2221f46353dc5eaf2a0482d187614e99fe58cb3fe80c05f7a4ba09311c",
@@ -1128,7 +1128,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"c53bc7808e1a36bc2933e03529bdc77d847ba3536c7cf51caaffc85ec8c049fb",
@@ -1141,7 +1141,7 @@
     "currency":"USD",
     "posted_date":"2026-10-15",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"e7672073aac11e54ef579c70bc7493619f0da31512b453638c99e09a8a2d1374",
@@ -1154,7 +1154,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"9088b698d895946efc5945d35471519e0c7528f1e3b6722b1016dd91ebf935c9",
@@ -1167,7 +1167,7 @@
     "currency":"EUR",
     "posted_date":"2026-10-19",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"c2bf06fd2bda0151d2fd8ca2cbe6f9b427fc79f8bb0b895789094d58c812dcf0",
@@ -1180,7 +1180,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"a59494de6171f25e33bffd1ff8f90b61d37b0a99ba921f4c3258e176f40550b2",
@@ -1193,7 +1193,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"ddea75f29b840a94f41bf7c33809fbc1de520d01fcc88d0b3e248c6e597e704b",
@@ -1206,7 +1206,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"77233f106fad12d1632bda45e0b08aec457ddd847ce096621cbfa218545b2885",
@@ -1219,7 +1219,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"17f60bcd443dc68be8eca5850675f6c9d6b37eaed76294250be72948fde46139",
@@ -1232,7 +1232,7 @@
     "currency":"GBP",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"dd96b46a3db9afe4c37a6ac60a8b58bba98411316757872f43289be5549ae1c0",
@@ -1245,7 +1245,7 @@
     "currency":"USD",
     "posted_date":"2026-10-15",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"cbc858c31ace228d6798a801960510a765ccadec63ac5d0904ec98dcfccb733b",
@@ -1258,7 +1258,7 @@
     "currency":"INR",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"a1b5f2622c9109a2f0d2883810f25053ff42e1549e9778a95c2a38b0a1eccef8",
@@ -1271,7 +1271,7 @@
     "currency":"USD",
     "posted_date":"2026-10-19",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"5ff15925be352bdffb29cf66d2cf3ba9a92521d38be13fe05af9a1b5f90d82e0",
@@ -1284,7 +1284,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"b167e82183f92066572311b1ef78abeabf19db74142a4a6c843385dd826813d6",
@@ -1297,7 +1297,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_4.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"28ee88bccd7985114cbf8fea9ee94cadb328e9038fe72a303154fb0ab45d6312",
@@ -1310,7 +1310,7 @@
     "currency":"GBP",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"6c81f7c8d5ebbbfcbd3475757011e41c847bc17d04125ab7078bdea42fb1f97d",
@@ -1323,7 +1323,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"0ac9307710ea9d1e30cec0eb0ee631ccd488776b3638c67df8235d9cebec073b",
@@ -1336,7 +1336,7 @@
     "currency":"INR",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"77bab3a29b67d07a21d6707a9f4159d57122e582807c8403150fa6f68f3bb2ca",
@@ -1349,7 +1349,7 @@
     "currency":"USD",
     "posted_date":"2026-10-15",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"cebe39bee06a0da18098d711b217153ef60c53e54bbf219b31f19c4b89a66258",
@@ -1362,7 +1362,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"9cd79410496812f09609356d5955a1e4387124bc462441455aa159200db632bf",
@@ -1375,7 +1375,7 @@
     "currency":"USD",
     "posted_date":"2026-10-19",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"7dd51dd7c24e91b34f3fdf1b8061cd8b1626d97d1d5ca58380df42a0137fd006",
@@ -1388,7 +1388,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"a34b2e8364e33ada00bc1cacdd311e61f44240e91b5a53bcc8adc3fa42a196f2",
@@ -1401,7 +1401,7 @@
     "currency":"EUR",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"dfd0e4704ca82851cd88740fcaec50f0db429a60d0e3c7bb72ffdf2743d49f13",
@@ -1414,7 +1414,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"1c2b4ec9babf243f02f0c93b74bfd9cf671951fb02604aababfd57b89a343aac",
@@ -1427,7 +1427,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"efe185c06d829c62e1088829bce50d0ace9fa9ee41cd60d839086f47bfdddc04",
@@ -1440,7 +1440,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"1f3321424c874d28fd595960cf04bd61687e40bfd43d18b0af6a0ff06164416b",
@@ -1453,7 +1453,7 @@
     "currency":"USD",
     "posted_date":"2026-10-15",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"ad778a211fcd8799fc8d851bc62bcd791aa49a77c14b7bd6fe23ef42fd3cccf9",
@@ -1466,7 +1466,7 @@
     "currency":"GBP",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"2689909c1f1ac436ac4389c1741633f23e6bcba5f0069b066d0948ed0fcb8f0f",
@@ -1479,7 +1479,7 @@
     "currency":"USD",
     "posted_date":"2026-10-19",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"893466a873365a2f657ad49ebd50d7eb442c33c825ec9bd71c45ce80f03e9ff1",
@@ -1492,7 +1492,7 @@
     "currency":"INR",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"b2d8db2bb122bc5504c11ddffc6c4e36cc8d028e5e6aa4f8da22e68fe0f68a1b",
@@ -1505,7 +1505,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"2b7b59a789492c112a39ee1fa2fd556a52b893f00508cbe548cd3bb7b220da15",
@@ -1518,7 +1518,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"6d1314ec290ca39f60c648c1014e955fdfc962163d663b3721f1dc3785456aa0",
@@ -1531,7 +1531,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"331cbd1e3ab15f408a4160ae5d13ec6a6cd408b244bdd00dacd14f8c9feb566d",
@@ -1544,7 +1544,7 @@
     "currency":"USD",
     "posted_date":"2026-10-21",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"9423dc0b0e2a7f08d00ac958fa13382af77126fe0557304c0dae188a55df66c4",
@@ -1557,7 +1557,7 @@
     "currency":"EUR",
     "posted_date":"2026-10-15",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"ba9850985e062651da58b50edbacf7553a989fbdfe3f3e119a1a57337eef6941",
@@ -1570,7 +1570,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"69d8a2f5ac2162e5ca1d3fbca7016bc4bd0ab75b038dde3dfbdbdd384673dbda",
@@ -1583,7 +1583,7 @@
     "currency":"USD",
     "posted_date":"2026-10-19",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"172ae8207287a0a6527978691f6da5de60509bb58e3ae322700806b9f0b7e03e",
@@ -1596,7 +1596,7 @@
     "currency":"USD",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"a7b07ba53df87eeb2f3f4dbc51406299d3012aca47a9062b6c10e5bf45917c27",
@@ -1609,7 +1609,7 @@
     "currency":"USD",
     "posted_date":"2026-10-18",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   },
   {
     "record_hash":"92d6902c96ef184eda5157c8bc2fad26aac6f9837f990bccc4fdad346659ef60",
@@ -1622,6 +1622,6 @@
     "currency":"GBP",
     "posted_date":"2026-10-20",
     "source_url":"file:\/\/\/D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data\/fixtures\/html\\jobs_page_5.html",
-    "extracted_at":"2026-10-21 11:14:09"
+    "extracted_at":"2026-10-21 11:43:04"
   }
 ]
