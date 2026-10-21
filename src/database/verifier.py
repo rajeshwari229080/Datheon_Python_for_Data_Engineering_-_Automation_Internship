@@ -4,7 +4,7 @@ Executes aggregation, sorting, filtering, duplicate audits, and verifies rollbac
 from dataclasses import asdict, dataclass, field
 import json
 import logging
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 from sqlalchemy import func, select, text
 from sqlalchemy.orm import Session
 from src.database.models import JobPosting
