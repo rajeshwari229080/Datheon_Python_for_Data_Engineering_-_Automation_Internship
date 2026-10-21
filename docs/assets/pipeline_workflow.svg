@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 240" width="100%" height="100%">
+  <defs>
+    <filter id="pShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="240" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="30" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800" fill="#0F172A">End-to-End ETL Stage Progression Sequence</text>
+  <text x="30" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#64748B">Deterministic execution lifecycle with strict validation gates and rollback guarantees</text>
+
+  <!-- 8 Stages Row -->
+  <g transform="translate(30, 85)">
+    <!-- Stage 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="115" height="110" rx="8" fill="#F8FAFC" stroke="#BFDBFE" stroke-width="1.5" filter="url(#pShadow)"/>
+      <circle cx="25" cy="25" r="12" fill="#EFF6FF"/>
+      <text x="21" y="30" font-family="sans-serif" font-size="12" font-weight="700" fill="#2563EB">1</text>
+      <text x="14" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">EXTRACT</text>
+      <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748B">Requests+BS4</text>
+      <text x="14" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#15803D">125 Records</text>
+    </g>
+    <!-- Arrow -->
+    <text x="120" y="60" font-family="sans-serif" font-size="16" fill="#94A3B8">→</text>
+
+    <!-- Stage 2 -->
+    <g transform="translate(130, 0)">
+      <rect width="115" height="110" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5" filter="url(#pShadow)"/>
+      <circle cx="25" cy="25" r="12" fill="#F1F5F9"/>
+      <text x="21" y="30" font-family="sans-serif" font-size="12" font-weight="700" fill="#475569">2</text>
+      <text x="14" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">VALIDATE IN</text>
+      <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748B">Payload Check</text>
+      <text x="14" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#15803D">Integrity OK</text>
+    </g>
+    <!-- Arrow -->
+    <text x="250" y="60" font-family="sans-serif" font-size="16" fill="#94A3B8">→</text>
+
+    <!-- Stage 3 -->
+    <g transform="translate(260, 0)">
+      <rect width="115" height="110" rx="8" fill="#F8FAFC" stroke="#BBF7D0" stroke-width="1.5" filter="url(#pShadow)"/>
+      <circle cx="25" cy="25" r="12" fill="#F0FDF4"/>
+      <text x="21" y="30" font-family="sans-serif" font-size="12" font-weight="700" fill="#16A34A">3</text>
+      <text x="14" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">TRANSFORM</text>
+      <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748B">Pandas Clean</text>
+      <text x="14" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#15803D">Normalized</text>
+    </g>
+    <!-- Arrow -->
+    <text x="380" y="60" font-family="sans-serif" font-size="16" fill="#94A3B8">→</text>
+
+    <!-- Stage 4 -->
+    <g transform="translate(390, 0)">
+      <rect width="115" height="110" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5" filter="url(#pShadow)"/>
+      <circle cx="25" cy="25" r="12" fill="#F1F5F9"/>
+      <text x="21" y="30" font-family="sans-serif" font-size="12" font-weight="700" fill="#475569">4</text>
+      <text x="14" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">VALIDATE OUT</text>
+      <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748B">Schema Audit</text>
+      <text x="14" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#15803D">Approved</text>
+    </g>
+    <!-- Arrow -->
+    <text x="510" y="60" font-family="sans-serif" font-size="16" fill="#94A3B8">→</text>
+
+    <!-- Stage 5 -->
+    <g transform="translate(520, 0)">
+      <rect width="115" height="110" rx="8" fill="#F8FAFC" stroke="#FED7AA" stroke-width="1.5" filter="url(#pShadow)"/>
+      <circle cx="25" cy="25" r="12" fill="#FFF7ED"/>
+      <text x="21" y="30" font-family="sans-serif" font-size="12" font-weight="700" fill="#EA580C">5</text>
+      <text x="14" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">LOAD UPSERT</text>
+      <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748B">SQLAlchemy</text>
+      <text x="14" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#15803D">Idempotent</text>
+    </g>
+    <!-- Arrow -->
+    <text x="640" y="60" font-family="sans-serif" font-size="16" fill="#94A3B8">→</text>
+
+    <!-- Stage 6 -->
+    <g transform="translate(650, 0)">
+      <rect width="115" height="110" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5" filter="url(#pShadow)"/>
+      <circle cx="25" cy="25" r="12" fill="#F1F5F9"/>
+      <text x="21" y="30" font-family="sans-serif" font-size="12" font-weight="700" fill="#475569">6</text>
+      <text x="14" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">VERIFY</text>
+      <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748B">Queries &amp; Test</text>
+      <text x="14" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#15803D">0 Duplicates</text>
+    </g>
+    <!-- Arrow -->
+    <text x="770" y="60" font-family="sans-serif" font-size="16" fill="#94A3B8">→</text>
+
+    <!-- Stage 7 -->
+    <g transform="translate(780, 0)">
+      <rect width="115" height="110" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5" filter="url(#pShadow)"/>
+      <circle cx="25" cy="25" r="12" fill="#F1F5F9"/>
+      <text x="21" y="30" font-family="sans-serif" font-size="12" font-weight="700" fill="#475569">7</text>
+      <text x="14" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">REPORT</text>
+      <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748B">JSON History</text>
+      <text x="14" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#15803D">Telemetry Log</text>
+    </g>
+    <!-- Arrow -->
+    <text x="900" y="60" font-family="sans-serif" font-size="16" fill="#94A3B8">→</text>
+
+    <!-- Stage 8 -->
+    <g transform="translate(910, 0)">
+      <rect width="125" height="110" rx="8" fill="#F8FAFC" stroke="#DDD6FE" stroke-width="1.5" filter="url(#pShadow)"/>
+      <circle cx="25" cy="25" r="12" fill="#F5F3FF"/>
+      <text x="21" y="30" font-family="sans-serif" font-size="12" font-weight="700" fill="#7C3AED">8</text>
+      <text x="14" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">NOTIFY</text>
+      <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748B">Console/Hook</text>
+      <text x="14" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#15803D">Dispatched</text>
+    </g>
+  </g>
+</svg>

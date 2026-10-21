@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%">
+  <defs>
+    <linearGradient id="lBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EDF2F7"/>
+    </linearGradient>
+    <linearGradient id="lHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="60%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <filter id="lShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" rx="16" fill="url(#lBg)"/>
+  <rect width="1198" height="628" x="1" y="1" rx="15" fill="none" stroke="#CBD5E1" stroke-width="2"/>
+
+  <!-- Top Pill -->
+  <g transform="translate(60, 40)">
+    <rect width="360" height="32" rx="16" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <circle cx="16" cy="16" r="6" fill="#2563EB"/>
+    <text x="32" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#1D4ED8" letter-spacing="0.5">PYTHON FOR DATA ENGINEERING INTERNSHIP</text>
+  </g>
+
+  <!-- Title -->
+  <text x="60" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="46" font-weight="900" fill="url(#lHeader)" letter-spacing="-1.5">DataFlow Engineering Studio</text>
+  <text x="60" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="500" fill="#475569">Autonomous Web Scraping • Data Cleaning • Relational Ingestion • Scheduled ETL Automation</text>
+
+  <!-- 4 Project Pillars Card Grid -->
+  <g transform="translate(60, 205)">
+    <!-- Card 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="250" height="230" rx="12" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#lShadow)"/>
+      <rect width="250" height="8" rx="4" fill="#2563EB"/>
+      <text x="20" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" fill="#0F172A">1. Web Scraper</text>
+      <text x="20" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#2563EB">Requests + BS4</text>
+      <text x="20" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">• Multi-page Pagination</text>
+      <text x="20" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">• Exponential Backoff</text>
+      <text x="20" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">• SHA-256 Deduplication</text>
+      <text x="20" y="164" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">• 125 Realistic Records</text>
+      <rect x="20" y="185" width="210" height="26" rx="6" fill="#F1F5F9"/>
+      <text x="32" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#15803D">✓ CSV &amp; JSON Export</text>
+    </g>
+
+    <!-- Card 2 -->
+    <g transform="translate(275, 0)">
+      <rect width="250" height="230" rx="12" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#lShadow)"/>
+      <rect width="250" height="8" rx="4" fill="#059669"/>
+      <text x="20" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" fill="#0F172A">2. Data Cleaning</text>
+      <text x="20" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#059669">Pandas + Schema</text>
+      <text x="20" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">• snake_case Headers</text>
+      <text x="20" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">• Null &amp; Whitespace Strip</text>
+      <text x="20" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">• Multi-Currency Parsing</text>
+      <text x="20" y="164" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">• Dates to ISO-8601</text>
+      <rect x="20" y="185" width="210" height="26" rx="6" fill="#F1F5F9"/>
+      <text x="32" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#15803D">✓ Quality Audit Report</text>
+    </g>
+
+    <!-- Card 3 -->
+    <g transform="translate(550, 0)">
+      <rect width="250" height="230" rx="12" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#lShadow)"/>
+      <rect width="250" height="8" rx="4" fill="#D97706"/>
+      <text x="20" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" fill="#0F172A">3. Relational DB</text>
+      <text x="20" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#D97706">SQLAlchemy 2.0</text>
+      <text x="20" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">• SQLite &amp; Postgres Dual</text>
+      <text x="20" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">• Idempotent Batch Upsert</text>
+      <text x="20" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">• Transaction Rollback Safe</text>
+      <text x="20" y="164" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">• Analytical Query Verifier</text>
+      <rect x="20" y="185" width="210" height="26" rx="6" fill="#F1F5F9"/>
+      <text x="32" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#15803D">✓ 0 Duplicates Confirmed</text>
+    </g>
+
+    <!-- Card 4 -->
+    <g transform="translate(825, 0)">
+      <rect width="255" height="230" rx="12" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#lShadow)"/>
+      <rect width="255" height="8" rx="4" fill="#7C3AED"/>
+      <text x="20" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" fill="#0F172A">4. Scheduled ETL</text>
+      <text x="20" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#7C3AED">Orchestrator + Alert</text>
+      <text x="20" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">• 8-Stage Sequential Flow</text>
+      <text x="20" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">• Concurrency File Lock</text>
+      <text x="20" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">• Rotating Log Files</text>
+      <text x="20" y="164" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">• Dry-Run Simulation</text>
+      <rect x="20" y="185" width="215" height="26" rx="6" fill="#F1F5F9"/>
+      <text x="32" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#15803D">✓ Multi-Channel Alerts</text>
+    </g>
+  </g>
+
+  <!-- Bottom Proof Bar -->
+  <g transform="translate(60, 465)">
+    <rect width="1080" height="120" rx="12" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#lShadow)"/>
+    <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800" fill="#0F172A">Engineering Standards &amp; Deliverables Checklist</text>
+    
+    <g transform="translate(30, 60)">
+      <text x="0" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#15803D">✓ 25/25 Pytest Tests Passing</text>
+      <text x="270" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#15803D">✓ 30 Atomic Git Commits</text>
+      <text x="540" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#15803D">✓ Streamlit Studio Live UI</text>
+      <text x="810" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#15803D">✓ 100% Offline Runnable</text>
+    </g>
+
+    <g transform="translate(30, 92)">
+      <text x="0" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#64748B">GitHub: github.com/rajeshwari229080/Datheon_Python_for_Data_Engineering_-_Automation_Internship</text>
+    </g>
+  </g>
+</svg>
