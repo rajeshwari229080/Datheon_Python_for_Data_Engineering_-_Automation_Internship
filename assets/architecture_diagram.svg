@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 560" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#0F172A" flood-opacity="0.05"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#2563EB"/>
+    </marker>
+  </defs>
+
+  <rect width="1100" height="560" rx="16" fill="#FAFAFA" stroke="#E2E8F0" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="40" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" fill="#0F172A">System Architecture &amp; Data Pipeline Layers</text>
+  <text x="40" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#64748B">Decoupled 4-Tier Data Engineering Pipeline with Centralized Presentation Layer</text>
+
+  <!-- Layer 1: Extraction -->
+  <g transform="translate(40, 105)">
+    <rect width="230" height="340" rx="12" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect width="230" height="42" rx="12" fill="#EFF6FF"/>
+    <rect width="230" height="12" y="30" fill="#EFF6FF"/>
+    <text x="16" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#1D4ED8">1. EXTRACTION LAYER</text>
+    
+    <text x="16" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#334155">Requests + BeautifulSoup4</text>
+    <text x="16" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• Multi-page Pagination</text>
+    <text x="16" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• Exponential Backoff (3x)</text>
+    <text x="16" y="134" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• Rate-Limiting Delays</text>
+    <text x="16" y="154" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• robots.txt Compliance</text>
+    <text x="16" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• Offline HTML Fixtures</text>
+
+    <!-- Artifacts -->
+    <rect x="14" y="200" width="202" height="120" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="24" y="224" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#0F172A">Generated Artifacts:</text>
+    <text x="24" y="248" font-family="monospace" font-size="10" fill="#2563EB">data/raw/scraped_jobs.csv</text>
+    <text x="24" y="268" font-family="monospace" font-size="10" fill="#2563EB">data/raw/scraped_jobs.json</text>
+    <text x="24" y="288" font-family="monospace" font-size="10" fill="#64748B">reports/scraping_summary.json</text>
+    <text x="24" y="308" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#059669">✓ 125 Unique Records</text>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <line x1="270" y1="275" x2="300" y2="275" stroke="#2563EB" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Layer 2: Cleaning -->
+  <g transform="translate(305, 105)">
+    <rect width="230" height="340" rx="12" fill="#FFFFFF" stroke="#BBF7D0" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect width="230" height="42" rx="12" fill="#F0FDF4"/>
+    <rect width="230" height="12" y="30" fill="#F0FDF4"/>
+    <text x="16" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#15803D">2. CLEANING &amp; SCHEMA</text>
+    
+    <text x="16" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#334155">Pandas Transformation</text>
+    <text x="16" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• Headers to snake_case</text>
+    <text x="16" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• Whitespace &amp; Null Cleanup</text>
+    <text x="16" y="134" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• Currency Code &amp; Magnitudes</text>
+    <text x="16" y="154" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• Dates to ISO YYYY-MM-DD</text>
+    <text x="16" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• Non-Destructive Outputs</text>
+
+    <!-- Artifacts -->
+    <rect x="14" y="200" width="202" height="120" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="24" y="224" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#0F172A">Generated Artifacts:</text>
+    <text x="24" y="248" font-family="monospace" font-size="10" fill="#059669">data/processed/cleaned.csv</text>
+    <text x="24" y="268" font-family="monospace" font-size="10" fill="#059669">data/processed/cleaned.json</text>
+    <text x="24" y="288" font-family="monospace" font-size="10" fill="#64748B">reports/data_quality.json</text>
+    <text x="24" y="308" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#059669">✓ 0 Null Violations</text>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <line x1="535" y1="275" x2="565" y2="275" stroke="#2563EB" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Layer 3: Database Engine -->
+  <g transform="translate(570, 105)">
+    <rect width="230" height="340" rx="12" fill="#FFFFFF" stroke="#FED7AA" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect width="230" height="42" rx="12" fill="#FFF7ED"/>
+    <rect width="230" height="12" y="30" fill="#FFF7ED"/>
+    <text x="16" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#C2410C">3. RELATIONAL UPSERT</text>
+    
+    <text x="16" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#334155">SQLAlchemy 2.0 ORM</text>
+    <text x="16" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• SQLite &amp; PostgreSQL Dual</text>
+    <text x="16" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• SHA-256 Natural Key Hash</text>
+    <text x="16" y="134" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• Idempotent Batch Upserts</text>
+    <text x="16" y="154" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• Transaction Rollback Safe</text>
+    <text x="16" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• Analytical Query Verifier</text>
+
+    <!-- Artifacts -->
+    <rect x="14" y="200" width="202" height="120" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="24" y="224" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#0F172A">Generated Artifacts:</text>
+    <text x="24" y="248" font-family="monospace" font-size="10" fill="#C2410C">database/dataflow.db</text>
+    <text x="24" y="268" font-family="monospace" font-size="10" fill="#C2410C">database/verify_queries.sql</text>
+    <text x="24" y="288" font-family="monospace" font-size="10" fill="#64748B">reports/database_load.json</text>
+    <text x="24" y="308" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#059669">✓ 0 Duplicate Rows</text>
+  </g>
+
+  <!-- Arrow 3 -> 4 -->
+  <line x1="800" y1="275" x2="830" y2="275" stroke="#2563EB" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Layer 4: Pipeline & Alerting -->
+  <g transform="translate(835, 105)">
+    <rect width="230" height="340" rx="12" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect width="230" height="42" rx="12" fill="#F5F3FF"/>
+    <rect width="230" height="12" y="30" fill="#F5F3FF"/>
+    <text x="16" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#6D28D9">4. SCHEDULED ETL</text>
+    
+    <text x="16" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#334155">Schedule &amp; Alert Engine</text>
+    <text x="16" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• 8 Sequential Stages</text>
+    <text x="16" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• Concurrency File Lock</text>
+    <text x="16" y="134" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• Rotating Log Files (5MB)</text>
+    <text x="16" y="154" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• Multi-Channel Notifications</text>
+    <text x="16" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">• Dry-Run Simulation</text>
+
+    <!-- Artifacts -->
+    <rect x="14" y="200" width="202" height="120" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="24" y="224" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#0F172A">Generated Artifacts:</text>
+    <text x="24" y="248" font-family="monospace" font-size="10" fill="#6D28D9">logs/pipeline.log</text>
+    <text x="24" y="268" font-family="monospace" font-size="10" fill="#6D28D9">reports/run_history.json</text>
+    <text x="24" y="288" font-family="monospace" font-size="10" fill="#64748B">etl_run_history (DB Table)</text>
+    <text x="24" y="308" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#059669">✓ Alert Console Fallback</text>
+  </g>
+
+  <!-- Bottom Unified Dashboard Banner -->
+  <g transform="translate(40, 470)">
+    <rect width="1025" height="60" rx="10" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#shadow)"/>
+    <text x="30" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" fill="#0F172A">⚡ Central Streamlit Dashboard (app.py)</text>
+    <text x="360" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#475569">Interactive Scraper Console • Before/After Data Cleaner • Database Explorer • Real-Time Pipeline Trigger</text>
+    <rect x="910" y="17" width="95" height="26" rx="6" fill="#2563EB"/>
+    <text x="922" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Launch UI</text>
+  </g>
+</svg>

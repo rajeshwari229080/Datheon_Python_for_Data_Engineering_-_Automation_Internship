@@ -1,86 +1,113 @@
 # DataFlow Engineering Studio
 ## Autonomous Web Scraping, Data Cleaning, Relational Ingestion & Scheduled ETL Automation
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![SQLAlchemy 2.0](https://img.shields.io/badge/SQLAlchemy-2.0-red.svg)](https://www.sqlalchemy.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-orange.svg)](https://streamlit.io/)
-[![Pytest 8.0+](https://img.shields.io/badge/pytest-passing-brightgreen.svg)](https://pytest.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+<p align="center">
+  <img src="assets/hero_banner.svg" alt="DataFlow Engineering Studio Hero Banner" width="100%"/>
+</p>
 
-An enterprise-grade, execution-ready internship project suite consisting of **FOUR independent Python projects** unified through a modern central web dashboard. Built for data engineering students, evaluators, and practitioners.
+<p align="center">
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+"/></a>
+  <a href="https://www.sqlalchemy.org/"><img src="https://img.shields.io/badge/SQLAlchemy-2.0-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy 2.0"/></a>
+  <a href="https://pandas.pydata.org/"><img src="https://img.shields.io/badge/Pandas-2.0+-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/></a>
+  <a href="https://streamlit.io/"><img src="https://img.shields.io/badge/Streamlit-1.30+-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/></a>
+  <a href="https://pytest.org/"><img src="https://img.shields.io/badge/Pytest-25_Passed-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest 25 Passed"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="MIT License"/></a>
+</p>
+
+An enterprise-grade, execution-ready internship project suite consisting of **FOUR independent Python projects** unified through a modern central web dashboard. Built for data engineering evaluators, students, and practitioners.
 
 ---
 
-## 🌟 Project Suite Architecture
+## 🏛️ System Architecture & Data Pipeline Layers
 
-DataFlow Engineering Studio implements an end-to-end data lifecycle:
+The architecture employs a clean, decoupled 4-tier pipeline design with a centralized presentation layer:
 
-```
-[1. Scraper (Requests + BS4)] ──► [2. Cleaner (Pandas + Schema)] ──► [3. Database (SQLAlchemy 2.0)]
-                                                                               ▲
-                                                                               │
-[4. Orchestrator & Scheduler (Python Schedule + Mutex Lock + Alerts)] ─────────┘
-                                       ▲
-                                       │
-                  [5. Central Streamlit Dashboard (app.py)]
-```
+<p align="center">
+  <img src="assets/architecture_diagram.svg" alt="System Architecture Diagram" width="100%"/>
+</p>
+
+---
+
+## ⏱️ End-to-End Pipeline Workflow Sequence
+
+The pipeline implements a strict sequential state machine with mutual exclusion locking and automatic rollback isolation:
+
+<p align="center">
+  <img src="assets/pipeline_workflow.svg" alt="ETL Stage Progression Sequence" width="100%"/>
+</p>
 
 ---
 
 ## 📦 The Four Independent Projects
 
-### 🕷️ Project 1 — Autonomous Web Scraper & Data Extractor
-- **Tech Stack**: `Requests`, `BeautifulSoup4`
-- **Features**:
-  - Extracts 125+ structured records from multi-page portals or bundled offline HTML fixtures.
-  - Polite crawling etiquette: descriptive User-Agent, timeouts, exponential backoff retries, rate-limiting delays, and `robots.txt` compliance.
-  - Canonical record fingerprinting (SHA-256 natural key hash) to prevent duplicate records.
-  - Generates telemetry and scraping reports in JSON.
-- **Entry Point**: `python projects/project_1_scraper/run.py`
-- **Docs**: [Project 1 README](projects/project_1_scraper/README.md)
-
-### 🧹 Project 2 — Automated Data Cleaning & Schema Transformation
-- **Tech Stack**: `Pandas`
-- **Features**:
-  - Non-destructive processing (raw data is preserved; outputs written to `data/processed/`).
-  - Standardizes headers to `snake_case` with automated alias mapping.
-  - Sanitizes whitespace, title-casing, and converts pseudo-null values (`"n/a"`, `"none"`, `"competitive"`).
-  - Normalizes currencies into numeric ranges while preserving ISO currency codes (`USD`, `EUR`, `GBP`, `INR`).
-  - Multi-format date parsing (ISO, European, US, relative expressions like `"3 days ago"`) into standard `YYYY-MM-DD`.
-  - Enforces schema types, boundaries, and non-null constraints (`config/schema.json`).
-  - Generates comprehensive Data Quality Audit Reports.
-- **Entry Point**: `python projects/project_2_data_cleaning/run.py`
-- **Docs**: [Project 2 README](projects/project_2_data_cleaning/README.md)
-
-### 🗄️ Project 3 — Relational Database Auto-Ingestion & Upsert Engine
-- **Tech Stack**: `SQLAlchemy 2.0` (SQLite default, PostgreSQL optional)
-- **Features**:
-  - Declarative schema with primary keys, indexes, and unique business key constraints (`record_hash`).
-  - Idempotent upserts: re-running ingestion creates zero duplicate rows; modified records update in-place.
-  - Atomic transactions with rollback isolation (tested and proven to prevent orphan rows on errors).
-  - Batch processing with configurable chunk sizes.
-  - Analytical query verification suite (groupings, salary statistics, top organizations).
-  - Credentials kept outside code; connection URLs masked in logs.
-- **Entry Point**: `python projects/project_3_database_ingestion/run.py`
-- **Docs**: [Project 3 README](projects/project_3_database_ingestion/README.md)
-
-### ⏱️ Project 4 — Scheduled End-to-End ETL Pipeline with Alerting
-- **Tech Stack**: `Schedule`, `Python Logging`, `SMTP / Webhooks`
-- **Features**:
-  - Strict 8-stage sequence:
-    `Extract -> Validate Input -> Transform -> Validate Output -> Load/Upsert -> Verify -> Report -> Notify`
-  - Mutual exclusion file lock (`.pipeline.lock`) to prevent concurrent colliding runs.
-  - Unique execution run IDs (`run_YYYYMMDD_HHMMSS_<uuid>`).
-  - Telemetry tracking stage durations, records in/out, rotating log files (`logs/pipeline.log`).
-  - Multi-channel alerting (Console default, Webhook, SMTP email) with safe offline fallbacks.
-  - Dry-run mode (`--dry-run`) simulating transformations and rolling back DB writes.
-  - Run-history tracking stored in SQLite table and `reports/run_history.json`.
-- **Entry Point**: `python projects/project_4_scheduled_etl/run.py`
-- **Docs**: [Project 4 README](projects/project_4_scheduled_etl/README.md)
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="25%">🕷️ Project 1: Scraper</th>
+      <th width="25%">🧹 Project 2: Cleaner</th>
+      <th width="25%">🗄️ Project 3: Database</th>
+      <th width="25%">⏱️ Project 4: Pipeline</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+        <strong>Requests + BS4</strong><br/>
+        • Multi-page pagination<br/>
+        • 3x Exponential backoff<br/>
+        • robots.txt parsing<br/>
+        • SHA-256 natural key hash<br/>
+        • 125 realistic records<br/>
+        • Offline HTML fixtures<br/>
+        <br/>
+        <a href="projects/project_1_scraper/README.md"><strong>Project 1 Docs »</strong></a>
+      </td>
+      <td valign="top">
+        <strong>Pandas + Schema</strong><br/>
+        • snake_case headers<br/>
+        • Whitespace & null stripping<br/>
+        • Currency magnitude parsing<br/>
+        • ISO-8601 date normalization<br/>
+        • Schema constraint checks<br/>
+        • Quality audit reports<br/>
+        <br/>
+        <a href="projects/project_2_data_cleaning/README.md"><strong>Project 2 Docs »</strong></a>
+      </td>
+      <td valign="top">
+        <strong>SQLAlchemy 2.0</strong><br/>
+        • SQLite & Postgres dual-engine<br/>
+        • Idempotent batch upserts<br/>
+        • Transaction rollback safety<br/>
+        • 0 duplicate guarantee<br/>
+        • Analytical query suite<br/>
+        • Masked credential logs<br/>
+        <br/>
+        <a href="projects/project_3_database_ingestion/README.md"><strong>Project 3 Docs »</strong></a>
+      </td>
+      <td valign="top">
+        <strong>Schedule + Alerting</strong><br/>
+        • 8 Sequential stages<br/>
+        • .pipeline.lock file mutex<br/>
+        • Rotating log files (5MB)<br/>
+        • Multi-channel notifications<br/>
+        • Dry-run simulation mode<br/>
+        • Relational run history<br/>
+        <br/>
+        <a href="projects/project_4_scheduled_etl/README.md"><strong>Project 4 Docs »</strong></a>
+      </td>
+    </tr>
+    <tr>
+      <td><code>python projects/project_1_scraper/run.py</code></td>
+      <td><code>python projects/project_2_data_cleaning/run.py</code></td>
+      <td><code>python projects/project_3_database_ingestion/run.py</code></td>
+      <td><code>python projects/project_4_scheduled_etl/run.py</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-## ⚡ Quick Start Guide
+## 🚀 Quick Start Guide
 
 ### 1. Installation
 Clone the repository and install dependencies:
@@ -90,8 +117,7 @@ cd Datheon_Python_for_Data_Engineering_-_Automation_Internship
 pip install -r requirements.txt
 ```
 
-### 2. Run the Central Streamlit Dashboard
-Launch the unified interactive studio:
+### 2. Launch the Central Streamlit Dashboard
 ```bash
 streamlit run app.py
 ```
@@ -100,22 +126,22 @@ Open your browser at `http://localhost:8501` to access all 4 projects through a 
 ### 3. Run Projects Independently via CLI
 
 ```bash
-# Project 1: Web Scraper (Extracts 125 records from HTML fixtures)
+# Project 1: Run Web Scraper (Extracts 125 records from HTML fixtures)
 python projects/project_1_scraper/run.py
 
-# Project 2: Data Cleaning & Validation
+# Project 2: Run Data Cleaner & Schema Validator
 python projects/project_2_data_cleaning/run.py
 
-# Project 3: Relational Database Upsert Engine
+# Project 3: Run Database Ingestion & Analytical Queries
 python projects/project_3_database_ingestion/run.py
 
-# Project 4: Full Scheduled ETL Pipeline (Manual execution)
+# Project 4: Run Manual End-to-End Pipeline
 python projects/project_4_scheduled_etl/run.py
 
-# Project 4: Full Pipeline in Dry-Run Mode
+# Project 4: Run Pipeline in Dry-Run Mode (Rolls back database writes)
 python projects/project_4_scheduled_etl/run.py --dry-run
 
-# Project 4: Scheduled Mode (Every 30 minutes)
+# Project 4: Run Scheduled Pipeline (Every 30 minutes)
 python projects/project_4_scheduled_etl/run.py --schedule --interval 30
 ```
 
@@ -123,16 +149,51 @@ python projects/project_4_scheduled_etl/run.py --schedule --interval 30
 
 ## 🧪 Automated Testing
 
-Execute the comprehensive test suite across all 4 projects:
+Run the automated test suite across all 4 projects:
 ```bash
 pytest tests/ -v
 ```
-**Test Coverage Breakdown**:
-- `test_scraper.py`: 8 tests (HTML parsing, missing fields, pagination, backoff, deduplication, CSV/JSON export)
-- `test_cleaner.py`: 8 tests (snake_case conversion, null sanitization, currency parsing, multi-format dates, schema validation)
-- `test_database.py`: 5 tests (table creation, idempotent upserts, transaction rollback, analytical queries, dry-run)
-- `test_pipeline.py`: 4 tests (concurrency locking, dry-run pipeline, full live E2E pipeline, alert fallback)
-- **Total**: 25 Passing Tests
+
+```text
+tests/test_cleaner.py::test_column_normalizer PASSED                     [  4%]
+tests/test_cleaner.py::test_column_collision_resolution PASSED           [  8%]
+tests/test_cleaner.py::test_string_sanitizer PASSED                      [ 12%]
+tests/test_cleaner.py::test_currency_parser_ranges PASSED                [ 16%]
+tests/test_cleaner.py::test_currency_parser_k_notation PASSED            [ 20%]
+tests/test_cleaner.py::test_date_normalizer PASSED                       [ 24%]
+tests/test_cleaner.py::test_schema_validator PASSED                      [ 28%]
+tests/test_cleaner.py::test_clean_dataset_end_to_end PASSED              [ 32%]
+tests/test_database.py::test_table_creation PASSED                       [ 36%]
+tests/test_database.py::test_insert_and_idempotent_upsert PASSED         [ 40%]
+tests/test_database.py::test_transaction_rollback PASSED                 [ 44%]
+tests/test_database.py::test_analytical_queries PASSED                   [ 48%]
+tests/test_database.py::test_dry_run_does_not_modify_db PASSED           [ 52%]
+tests/test_pipeline.py::test_concurrency_lock_lifecycle PASSED           [ 56%]
+tests/test_pipeline.py::test_pipeline_dry_run_execution PASSED           [ 60%]
+tests/test_pipeline.py::test_pipeline_live_e2e_execution PASSED          [ 64%]
+tests/test_pipeline.py::test_notification_console_fallback PASSED        [ 68%]
+tests/test_scraper.py::test_extractor_parses_job_cards PASSED            [ 72%]
+tests/test_scraper.py::test_extractor_finds_next_page PASSED             [ 76%]
+tests/test_scraper.py::test_extractor_empty_html PASSED                  [ 80%]
+tests/test_scraper.py::test_deduplicator_filters_duplicates PASSED       [ 84%]
+tests/test_scraper.py::test_polite_http_client_fixture_reading PASSED    [ 88%]
+tests/test_scraper.py::test_polite_http_client_missing_fixture PASSED    [ 92%]
+tests/test_scraper.py::test_reporter_metrics_and_summary PASSED          [ 96%]
+tests/test_scraper.py::test_full_offline_scraper_execution PASSED        [100%]
+
+============================= 25 passed in 4.57s ==============================
+```
+
+---
+
+## 📢 Social & Community Showcase
+
+<p align="center">
+  <img src="assets/linkedin_post.svg" alt="DataFlow Studio Social Card" width="100%"/>
+</p>
+
+- Complete social copy is available in [linkedin.md](linkedin.md).
+- Social infographic image is saved as [image.png](image.png) and [assets/linkedin_post.png](assets/linkedin_post.png).
 
 ---
 
@@ -141,8 +202,17 @@ pytest tests/ -v
 ```
 ├── app.py                             # Central Streamlit Dashboard
 ├── requirements.txt                   # Production dependencies
+├── LICENSE                            # MIT License
 ├── .gitignore                         # Git exclusion rules
-├── .env.example                       # Environment template (Zero hardcoded secrets)
+├── .env.example                       # Environment template (No hardcoded secrets)
+├── linkedin.md                        # LinkedIn announcement copy
+├── image.png                          # LinkedIn post infographic (Light Theme)
+├── assets/                            # Vector & raster visual assets
+│   ├── hero_banner.svg                # Top README hero banner
+│   ├── architecture_diagram.svg       # 4-tier architecture infographic
+│   ├── pipeline_workflow.svg          # 8-stage ETL progression diagram
+│   ├── linkedin_post.svg              # LinkedIn vector infographic
+│   └── linkedin_post.png              # LinkedIn raster infographic
 ├── config/
 │   ├── scraper_config.json            # CSS selectors, pagination & request rules
 │   ├── schema.json                    # Strict dataset schema & constraints
@@ -190,3 +260,8 @@ pytest tests/ -v
 
 ## 🎓 Internship Evaluation Script
 For step-by-step instructions on presenting this project during an internship viva or evaluation, please consult the [Internship Demonstration Guide](docs/internship_demo.md).
+
+---
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE) - see the `LICENSE` file for details.

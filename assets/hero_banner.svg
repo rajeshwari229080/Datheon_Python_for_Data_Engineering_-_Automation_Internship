@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)"/>
+  <rect width="1198" height="358" x="1" y="1" rx="15" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+
+  <!-- Subtle Blueprint Grid Pattern -->
+  <g stroke="#E2E8F0" stroke-width="1" opacity="0.6">
+    <line x1="100" y1="0" x2="100" y2="360"/>
+    <line x1="200" y1="0" x2="200" y2="360"/>
+    <line x1="300" y1="0" x2="300" y2="360"/>
+    <line x1="400" y1="0" x2="400" y2="360"/>
+    <line x1="500" y1="0" x2="500" y2="360"/>
+    <line x1="600" y1="0" x2="600" y2="360"/>
+    <line x1="700" y1="0" x2="700" y2="360"/>
+    <line x1="800" y1="0" x2="800" y2="360"/>
+    <line x1="900" y1="0" x2="900" y2="360"/>
+    <line x1="1000" y1="0" x2="1000" y2="360"/>
+    <line x1="1100" y1="0" x2="1100" y2="360"/>
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+  </g>
+
+  <!-- Top Badge -->
+  <g transform="translate(60, 42)">
+    <rect width="250" height="30" rx="15" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+    <circle cx="15" cy="15" r="5" fill="#2563EB"/>
+    <text x="30" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#1D4ED8" letter-spacing="0.5">DATA ENGINEERING STUDIO</text>
+  </g>
+
+  <!-- Main Headline -->
+  <text x="60" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" fill="url(#titleGrad)" letter-spacing="-1">DataFlow Engineering Studio</text>
+  <text x="60" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="500" fill="#475569">Autonomous Web Scraping • Data Cleaning • Relational Ingestion • Scheduled ETL Automation</text>
+
+  <!-- Metric Badges Row -->
+  <g transform="translate(60, 205)">
+    <!-- Metric 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="180" height="75" rx="10" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+      <rect width="4" height="75" rx="2" fill="#2563EB"/>
+      <text x="18" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" fill="#0F172A">4 Modules</text>
+      <text x="18" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#64748B">Independent Projects</text>
+    </g>
+    <!-- Metric 2 -->
+    <g transform="translate(200, 0)">
+      <rect width="180" height="75" rx="10" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+      <rect width="4" height="75" rx="2" fill="#059669"/>
+      <text x="18" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" fill="#0F172A">125+ Rows</text>
+      <text x="18" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#64748B">Extracted &amp; Verified</text>
+    </g>
+    <!-- Metric 3 -->
+    <g transform="translate(400, 0)">
+      <rect width="180" height="75" rx="10" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+      <rect width="4" height="75" rx="2" fill="#D97706"/>
+      <text x="18" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" fill="#0F172A">0 Duplicates</text>
+      <text x="18" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#64748B">Idempotent Upserts</text>
+    </g>
+    <!-- Metric 4 -->
+    <g transform="translate(600, 0)">
+      <rect width="180" height="75" rx="10" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+      <rect width="4" height="75" rx="2" fill="#7C3AED"/>
+      <text x="18" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" fill="#0F172A">25 Tests</text>
+      <text x="18" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#64748B">100% Pytest Passing</text>
+    </g>
+    <!-- Metric 5 -->
+    <g transform="translate(800, 0)">
+      <rect width="180" height="75" rx="10" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+      <rect width="4" height="75" rx="2" fill="#0284C7"/>
+      <text x="18" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" fill="#0F172A">30 Commits</text>
+      <text x="18" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#64748B">Git Conventional Style</text>
+    </g>
+    <!-- Metric 6 -->
+    <g transform="translate(1000, 0)">
+      <rect width="140" height="75" rx="10" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#cardShadow)"/>
+      <rect width="4" height="75" rx="2" fill="#E11D48"/>
+      <text x="16" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#0F172A">Streamlit</text>
+      <text x="16" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#64748B">Live Dashboard</text>
+    </g>
+  </g>
+
+  <!-- Bottom Tech Bar -->
+  <g transform="translate(60, 310)">
+    <text x="0" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#64748B">BUILT WITH:</text>
+    <rect x="90" y="0" width="75" height="24" rx="6" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="100" y="16" font-family="monospace" font-size="11" font-weight="600" fill="#334155">Python 3</text>
+    <rect x="175" y="0" width="80" height="24" rx="6" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="185" y="16" font-family="monospace" font-size="11" font-weight="600" fill="#334155">Requests</text>
+    <rect x="265" y="0" width="125" height="24" rx="6" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="275" y="16" font-family="monospace" font-size="11" font-weight="600" fill="#334155">BeautifulSoup4</text>
+    <rect x="400" y="0" width="65" height="24" rx="6" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="410" y="16" font-family="monospace" font-size="11" font-weight="600" fill="#334155">Pandas</text>
+    <rect x="475" y="0" width="115" height="24" rx="6" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="485" y="16" font-family="monospace" font-size="11" font-weight="600" fill="#334155">SQLAlchemy 2.0</text>
+    <rect x="600" y="0" width="65" height="24" rx="6" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="610" y="16" font-family="monospace" font-size="11" font-weight="600" fill="#334155">SQLite</text>
+    <rect x="675" y="0" width="85" height="24" rx="6" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="685" y="16" font-family="monospace" font-size="11" font-weight="600" fill="#334155">PostgreSQL</text>
+    <rect x="770" y="0" width="75" height="24" rx="6" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="780" y="16" font-family="monospace" font-size="11" font-weight="600" fill="#334155">Schedule</text>
+    <rect x="855" y="0" width="75" height="24" rx="6" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="865" y="16" font-family="monospace" font-size="11" font-weight="600" fill="#334155">Streamlit</text>
+    <rect x="940" y="0" width="60" height="24" rx="6" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <text x="950" y="16" font-family="monospace" font-size="11" font-weight="600" fill="#334155">Pytest</text>
+  </g>
+</svg>
