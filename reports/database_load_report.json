@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-10-21 11:09:40",
+  "database_url": "sqlite:///database/dataflow.db",
+  "dry_run": false,
+  "input_source": "D:\\intership\\Datheon_Python_for_Data_Engineering_&_Automation_Internship\\rw\\data/processed/cleaned_jobs.csv",
+  "ingestion_metrics": {
+    "total_processed": 125,
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 125,
+    "failed": 0,
+    "batches_executed": 3,
+    "duration_seconds": 0.107
+  },
+  "database_state": {
+    "total_table_records": 125,
+    "unique_record_hashes": 125,
+    "duplicate_records_found": 0,
+    "rollback_test_passed": true,
+    "categories_breakdown": [
+      {
+        "category": "Backend Engineering",
+        "job_count": 21,
+        "avg_min_salary": 1261190.48,
+        "avg_max_salary": 1750476.19
+      },
+      {
+        "category": "Cloud & Devops",
+        "job_count": 21,
+        "avg_min_salary": 154761.9,
+        "avg_max_salary": 170476.19
+      },
+      {
+        "category": "Data Science & AI",
+        "job_count": 21,
+        "avg_min_salary": 124285.71,
+        "avg_max_salary": 134761.9
+      },
+      {
+        "category": "Database Administration",
+        "job_count": 21,
+        "avg_min_salary": 95000.0,
+        "avg_max_salary": 115000.0
+      },
+      {
+        "category": "Software Architecture",
+        "job_count": 21,
+        "avg_min_salary": 85000.0,
+        "avg_max_salary": 105000.0
+      },
+      {
+        "category": "Data Engineering",
+        "job_count": 20,
+        "avg_min_salary": 105000.0,
+        "avg_max_salary": 127500.0
+      }
+    ],
+    "top_organizations": [
+      {
+        "organization": "Apex Data Labs",
+        "openings": 10
+      },
+      {
+        "organization": "Cloudscale Technologies",
+        "openings": 10
+      },
+      {
+        "organization": "Cyberpulse Corp",
+        "openings": 10
+      },
+      {
+        "organization": "Hyperion Dynamics",
+        "openings": 10
+      },
+      {
+        "organization": "Infracore Solutions",
+        "openings": 10
+      }
+    ],
+    "salary_statistics": {
+      "min_salary": 85000.0,
+      "max_salary": 3500000.0,
+      "avg_salary": 346904.76,
+      "salaries_reported": 105
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "run_id": "run_20261021_111409_041814",
+  "pipeline_name": "DataFlow E2E Studio Pipeline",
+  "status": "SUCCESS",
+  "dry_run": false,
+  "started_at": "2026-10-21 11:14:09",
+  "ended_at": "2026-10-21 11:14:09",
+  "duration_seconds": 0.36,
+  "records_extracted": 125,
+  "records_cleaned": 125,
+  "records_inserted": 0,
+  "records_updated": 0,
+  "records_unchanged": 125,
+  "records_failed": 0,
+  "error_message": null,
+  "stages": {
+    "extract": {
+      "name": "extract",
+      "status": "COMPLETED",
+      "started_at": "2026-10-21 11:14:09",
+      "ended_at": "2026-10-21 11:14:09",
+      "duration_seconds": 0.187,
+      "records_in": 0,
+      "records_out": 125,
+      "message": ""
+    },
+    "validate_input": {
+      "name": "validate_input",
+      "status": "COMPLETED",
+      "started_at": "2026-10-21 11:14:09",
+      "ended_at": "2026-10-21 11:14:09",
+      "duration_seconds": 0.0,
+      "records_in": 125,
+      "records_out": 125,
+      "message": ""
+    },
+    "transform": {
+      "name": "transform",
+      "status": "COMPLETED",
+      "started_at": "2026-10-21 11:14:09",
+      "ended_at": "2026-10-21 11:14:09",
+      "duration_seconds": 0.117,
+      "records_in": 125,
+      "records_out": 125,
+      "message": ""
+    },
+    "validate_output": {
+      "name": "validate_output",
+      "status": "COMPLETED",
+      "started_at": "2026-10-21 11:14:09",
+      "ended_at": "2026-10-21 11:14:09",
+      "duration_seconds": 0.0,
+      "records_in": 125,
+      "records_out": 125,
+      "message": ""
+    },
+    "load_upsert": {
+      "name": "load_upsert",
+      "status": "COMPLETED",
+      "started_at": "2026-10-21 11:14:09",
+      "ended_at": "2026-10-21 11:14:09",
+      "duration_seconds": 0.025,
+      "records_in": 125,
+      "records_out": 125,
+      "message": ""
+    },
+    "verify": {
+      "name": "verify",
+      "status": "COMPLETED",
+      "started_at": "2026-10-21 11:14:09",
+      "ended_at": "2026-10-21 11:14:09",
+      "duration_seconds": 0.028,
+      "records_in": 0,
+      "records_out": 0,
+      "message": ""
+    },
+    "report": {
+      "name": "report",
+      "status": "RUNNING",
+      "started_at": "2026-10-21 11:14:09",
+      "ended_at": "",
+      "duration_seconds": 0.0,
+      "records_in": 0,
+      "records_out": 0,
+      "message": ""
+    },
+    "notify": {
+      "name": "notify",
+      "status": "PENDING",
+      "started_at": "",
+      "ended_at": "",
+      "duration_seconds": 0.0,
+      "records_in": 0,
+      "records_out": 0,
+      "message": ""
+    }
+  }
+}

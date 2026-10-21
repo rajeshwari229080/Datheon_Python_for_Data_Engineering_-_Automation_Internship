@@ -1,0 +1,44 @@
+{
+  "input_records": 125,
+  "output_records": 125,
+  "duplicates_removed": 0,
+  "rejected_records": 0,
+  "missing_values_by_column": {
+    "source_url": 0,
+    "extracted_at": 0,
+    "title": 0,
+    "organization": 0,
+    "location": 0,
+    "salary": 20,
+    "category": 0,
+    "posted_date": 0,
+    "record_hash": 0,
+    "salary_min": 20,
+    "salary_max": 20,
+    "currency": 0
+  },
+  "missing_rates_by_column": {
+    "source_url": 0.0,
+    "extracted_at": 0.0,
+    "title": 0.0,
+    "organization": 0.0,
+    "location": 0.0,
+    "salary": 16.0,
+    "category": 0.0,
+    "posted_date": 0.0,
+    "record_hash": 0.0,
+    "salary_min": 16.0,
+    "salary_max": 16.0,
+    "currency": 0.0
+  },
+  "cleaning_actions": [
+    "Loaded 125 records from scraped_jobs.csv",
+    "Normalized column headers to snake_case: ['source_url', 'extracted_at', 'title', 'organization', 'location', 'salary', 'category', 'posted_date', 'record_hash']",
+    "Sanitized whitespace, standardized title-casing, applied defaults for location/category",
+    "Parsed salary ranges into numeric salary_min, salary_max, and preserved currency codes",
+    "Normalized heterogeneous dates into standard ISO-8601 YYYY-MM-DD",
+    "Schema validated: 125 records approved, 0 records rejected"
+  ],
+  "schema_violations": [],
+  "generated_at": "2026-10-21 11:14:09"
+}
