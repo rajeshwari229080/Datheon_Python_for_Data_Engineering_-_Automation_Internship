@@ -1,5 +1,6 @@
 """Column normalization and snake_case transformation engine.
-Maps arbitrary and messy header names into standardized snake_case schema columns.
+Maps arbitrary and messy header names into standardized snake_case schema columns
+and handles duplicate column collisions cleanly.
 """
 import re
 from typing import Dict, List, Optional
@@ -42,30 +43,42 @@ class ColumnNormalizer:
 
     @staticmethod
     def to_snake_case(text: str) -> str:
-        """Convert arbitrary text string to clean snake_case."""
+        """Convert arbitrary text string to clean snake_case with single underscores."""
         if not text:
             return ""
-        # Replace non-alphanumeric with space
-        cleaned = re.sub(r"[^\w\s]", " ", text)
-        # Split on uppercase transitions (e.g. CamelCase -> camel_case)
-        s1 = re.sub(r"(.)([A-Z][a-z]+)", r"\1_\2", cleaned)
-        s2 = re.sub(r"([a-z0-9])([A-Z])", r"\1_\2", s1)
-        # Replace whitespace or hyphens with single underscore
-        snake = re.sub(r"[\s\-]+", "_", s2).strip("_").lower()
-        return snake
+        # Clean non-alphanumeric characters
+        s = re.sub(r"[^\w\s]", " ", str(text))
+        # Insert space before camelCase transitions
+        s = re.sub(r"([a-z0-9])([A-Z])", r"\1 \2", s)
+        # Collapse multiple spaces and underscores
+        s = re.sub(r"[\s_]+", "_", s).strip("_").lower()
+        return s
 
     def normalize_dataframe_columns(
         self, df: pd.DataFrame, custom_aliases: Optional[Dict[str, str]] = None
     ) -> pd.DataFrame:
-        """Normalize all columns of a pandas DataFrame to snake_case and mapped aliases."""
+        """Normalize all columns of a pandas DataFrame to snake_case and mapped aliases,
+        resolving duplicate column collisions by coalescing or dropping duplicates."""
         alias_map = dict(self.STANDARD_ALIASES)
         if custom_aliases:
             alias_map.update(custom_aliases)
 
-        renamed_cols = {}
+        new_cols = []
         for col in df.columns:
             snake_col = self.to_snake_case(str(col))
             final_col = alias_map.get(snake_col, snake_col)
-            renamed_cols[col] = final_col
+            new_cols.append(final_col)
 
-        return df.rename(columns=renamed_cols)
+        # Build a new DataFrame with uniquely named columns, coalescing if duplicate
+        out_df = pd.DataFrame(index=df.index)
+        for orig_col, target_col in zip(df.columns, new_cols):
+            orig_series = df[orig_col]
+            if isinstance(orig_series, pd.DataFrame):
+                orig_series = orig_series.iloc[:, 0]
+
+            if target_col in out_df.columns:
+                out_df[target_col] = out_df[target_col].combine_first(orig_series)
+            else:
+                out_df[target_col] = orig_series
+
+        return out_df

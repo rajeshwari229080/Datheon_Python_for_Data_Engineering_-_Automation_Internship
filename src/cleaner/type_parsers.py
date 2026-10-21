@@ -26,7 +26,6 @@ class StringSanitizer:
         if text.lower() in cls.NULL_STRINGS:
             return None
         if title_case and len(text) > 1:
-            # Smart title case that preserves acronyms like AWS, ETL, AI, SQL
             words = text.split(" ")
             cased = []
             for w in words:
@@ -46,13 +45,18 @@ class StringSanitizer:
     ) -> pd.DataFrame:
         """Apply text sanitization and null standardization across specified columns."""
         cleaned_df = df.copy()
-        target_cols = text_columns or [c for c in cleaned_df.columns if cleaned_df[c].dtype == "object"]
+        if text_columns:
+            target_cols = [c for c in text_columns if c in cleaned_df.columns]
+        else:
+            target_cols = list(cleaned_df.select_dtypes(include=["object"]).columns)
+
         title_case_cols = set(title_case_columns or ["title", "organization", "location", "category"])
 
         for col in target_cols:
-            if col in cleaned_df.columns:
-                should_title_case = col in title_case_cols
-                cleaned_df[col] = cleaned_df[col].apply(
+            should_title_case = col in title_case_cols
+            series = cleaned_df[col]
+            if isinstance(series, pd.Series):
+                cleaned_df[col] = series.apply(
                     lambda v: self.clean_string_value(v, title_case=should_title_case)
                 )
 
